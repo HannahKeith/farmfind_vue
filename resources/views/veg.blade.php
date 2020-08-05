@@ -5,15 +5,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <title>Vegetables</title>
   </head>
   <body>
 
+    @include('nav')
+
     <div id="root">
 
       <ul>
-        <li v-for="farmer in farmers">{{name}}</li>
+        <li v-for="vegetable in vegetables" v-text="vegetable"></li>
       </ul>
 
     </div>
@@ -23,21 +27,7 @@
 new Vue({
   el: "#root",
   data: {
-      farmers: [
-      {
-        name: Joe,
-        phone: 404-876-2992,
-        address: "123 farming way, fayetteville, GA",
-        inventory: "squash"
-      },
-      {
-        name: Lynn,
-        phone: 404-976-2332,
-        address: "456 farming dr, Newnan, GA",
-        inventory: "squash"
-      },
-
-    ]
+      vegetables:['squash', 'beets', 'kale', 'spinach']
 
   }
 })
