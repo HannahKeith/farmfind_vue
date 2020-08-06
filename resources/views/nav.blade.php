@@ -21,7 +21,7 @@
 
 <div class="container">
 
-  <nav class="navbar navbar-dark bg-dark mt-5 mb-5">
+  <nav class="navbar navbar-dark  mt-5 mb-5">
   <!-- Navbar content -->
   <ul class="nav nav-tabs">
   <li class="nav-item">
@@ -34,8 +34,9 @@
     <a class="nav-link" href="/meat">Meat/Eggs</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About FarmFind</a>
+    <a class="nav-link" href="/contact">Contact Hannah</a>
   </li>
+
 </ul>
 
   </nav>

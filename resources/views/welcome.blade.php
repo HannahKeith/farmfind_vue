@@ -76,7 +76,7 @@
             }
 
             #profile {
-              border-radius: 100%;
+              border-radius: 10%;
               height: 400px;
               width: 300px;
             }
@@ -109,13 +109,21 @@
 
 
   <div class="media mt-5 ml-4 mr-4 pt-5">
-  <img id="profile" src="https://i.postimg.cc/T2rtqg8N/BW-H.jpg" class="align-self-center mr-3 pt-5" alt="Hannah Keith Software Engineer">
-  <div class="media-body pt-5">
-    <h5 class="mt-0">Hi, I'm Hannah</h5>
-    <p>I'm a software engineer based in the Atlanta metro area. I'm passionate about supporting local farmers, and in building communities that are cooperative and self-sustaining. In 2018 I moved to the South Atlanta area from Asheville, NC. While I was sure that there were farmers in the area, I had no idea how to find them. While FarmFind is certainly a work in progress, I hope it can at the least provide a resource for families struggling with the new realities of post-covid life.</p>
-    <p class="mb-0">May we all be nourished inside and out.</p>
+  <img id="profile" src="https://i.postimg.cc/T2rtqg8N/BW-H.jpg" class="align-self-center " alt="Hannah Keith Software Engineer">
+  <div class="media-body pt-5 ml-4 mr-4">
 
-    <button type="button" name="button" href= '/contact'></button>
+    <h5 class="mt-5">Hi, I'm Hannah</h5>
+    <p>I'm a software engineer based in the Atlanta metro area. I'm passionate about supporting local farmers, and in building communities that are cooperative and self-sustaining. In 2018 I moved to the South Atlanta area from Asheville, NC. While I was sure that there were farmers in the area, I had no idea how to find them. While FarmFind is certainly a work in progress, I hope it can at the least provide a resource for families struggling with the new realities of post-covid life.</p>
+    <p class="mb-4">May we all be nourished inside and out.</p>
+
+
+ <a class="btn btn-primary" href="/contact"> Send me an Email</a>
+
+ <a class="btn btn-primary" href="https://www.linkedin.com/in/hannahkeith/">Visit me on LinkedIN</a>
+
+ <a class="btn btn-primary" href="https://hannahkeith.github.io/portfolio.github.io/">My Portfolio</a>
+
+
   </div>
 </div>
 
