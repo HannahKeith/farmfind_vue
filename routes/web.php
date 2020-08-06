@@ -22,3 +22,5 @@ Route::get('/veg', 'vegController@index');
 
 
 Route::get('/meat', 'meatController@index');
+
+Route::get('/contact', 'contactController@create');
